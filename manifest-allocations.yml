@@ -2,7 +2,7 @@ applications:
 - name: tracker-allocations
   path: ./applications/allocations-server/build/libs/allocations-server.jar
   routes:
-  - route: allocations-pal-sooo-random.${DOMAIN}
+  - route: allocations-pal-sooo-random.apps.evans.pal.pivotal.io
   memory: 1G
   instances: 1
   env:
